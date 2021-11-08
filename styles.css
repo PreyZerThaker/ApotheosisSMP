@@ -1,0 +1,61 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    color: dodgerblue;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: Poppins;
+  color: dodgerblue;
+}
+
+h3 {
+  text-align: center;
+  font-family: Montserrat;
+}
+
+ol {
+    text-align: center;
+    list-style-type: none;
+    font-family: Montserrat;
+    color: whitesmoke;
+}
+
+.about {
+    font-family: Montserrat;
+    width: 50%;
+    margin: 3%;
+    color: whitesmoke;
+}
+
+hr {
+    border: dotted #94d1d1 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+.heart {
+   width: 20%;
+   transform: translateX(800px) translateY(-480px);
+}
+
+.PreyZer09 {
+    width: 20%;
+    transform: translateX(-200px) translateY(30px);
+}
+
+.paragraph {
+    font-family: Montserrat;
+    width: 50%;
+    margin: 3%;
+    color: #94d1d1;
+    transform: translateX(500px) translateY(-350px);
+}
